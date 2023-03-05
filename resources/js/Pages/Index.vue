@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const msg = ref('Hello World');
+const msg = ref('Welcome to your Laravel Inertia Starter Template!');
 </script>
 
 <template>
-    <div>
-        <h1>{{ msg }}</h1>
-    </div>
+    <h1 class="text-3xl font-bold underline">
+        {{ msg }}
+    </h1>
 </template>
